@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test3" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-10-21T06:48:50" hostname="Slave" time="12.399">
+  <properties/>
+  <testcase name="test2" classname="Test3" time="12.399"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[339 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.26.0 (since Mozilla Firefox 69 is installed in your machine)
+352 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as /home/delya/.m2/repository/webdriver/geckodriver/linux64/0.26.0/geckodriver
+1571640530927	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUTi90F"
+1571640531693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1571640531694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1571640531694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1571640531694	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1571640534922	Marionette	INFO	Listening on port 46129
+1571640534941	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 21, 2019 12:48:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1571640537443	Marionette	INFO	Stopped listening on port 46129
+]]></system-err>
+</testsuite>
